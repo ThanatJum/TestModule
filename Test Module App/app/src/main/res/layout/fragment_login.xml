@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.fragment.LoginFragment">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/images">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="@string/loginYourAccount"
+                  android:textSize="40sp" app:layout_constraintEnd_toEndOf="parent"
+                  android:layout_marginEnd="44dp" android:layout_marginRight="44dp"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="15dp"
+                  android:layout_marginStart="15dp" android:layout_marginTop="32dp"
+                  app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="1.0"
+                  android:id="@+id/textView3" android:layout_marginBottom="15dp"
+                  app:layout_constraintBottom_toTopOf="@+id/textView"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/userName"
+                  android:textSize="30sp"
+                  android:id="@+id/textView"
+                  app:layout_constraintStart_toStartOf="parent"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginStart="16dp"
+                  tools:layout_editor_absoluteY="124dp" tools:ignore="MissingConstraints"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="37dp"
+                  android:text="@string/passWord"
+                  android:textSize="30sp"
+                  android:id="@+id/textView2"
+                  app:layout_constraintStart_toStartOf="parent"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="32dp"
+                  app:layout_constraintTop_toBottomOf="@+id/textView"/>
+        <EditText
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                app:layout_constraintHorizontal_bias="0.421" android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+        <EditText
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toBottomOf="@+id/editText2"
+                app:layout_constraintHorizontal_bias="0.521"/>
+        <Button
+                android:text="@string/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="44dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.0"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnLoginAPI"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

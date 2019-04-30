@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Module</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userName">Username</string>
+    <string name="passWord">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnLoginAPI">Login with API</string>
+    <string name="management">Product Management</string>
+    <string name="productId">ID</string>
+    <string name="productName">Name</string>
+    <string name="productPrice">Price</string>
+    <string name="loginYourAccount">Login your account</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnDelete">Delete</string>
+    <string name="listOfProduct">List of Product</string>
+    <string name="totalSum">Total</string>
+
+
+
+</resources>
